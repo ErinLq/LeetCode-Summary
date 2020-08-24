@@ -10,7 +10,6 @@ public class AverageofLevelsinBinaryTree637 {
         if (root == null) {
             return res;
         }
-
         que.offer(root);
         while (!que.isEmpty()) {
             // The amount of tree node on this level
